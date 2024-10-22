@@ -1,14 +1,14 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './Landing.css';
-import grow from '../../assets/img/grown.svg';
+import grow from '../../assets/img/Azul Amarillo 3D Propuesta de proyecto Sitio web de educación (1).svg';
 
 const Landing = () => {
   return(
      <div className='landing-container'>
      <main className="landing">
       <section className="section-left">
-          <h1 className='landing-title'>¡Porque cada niño<br/>merece aprender <br/>a su manera <br />Inclusión <span>Edu</span>Tech!</h1>
+          <h1 className='landing-title'>¡ Creamos un camino<br/>para que cada <br/>estudiante <br /> descubra su <span>p</span>otencial!</h1>
             <div className='bton-landing-container'>
             <Link to="/RegisterForm">
               <button className='register-btn'>

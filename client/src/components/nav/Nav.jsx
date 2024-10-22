@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useUserContext } from '../../context/UserContext'; 
 import { useState } from 'react';
 import "./Nav.css";
-import logo from "../../assets/img/logotipo2.png";
+import logo from "../../assets/img/Educa TECH.png";
 import Logout from '../logOut/LogOut';
 
 const Nav = () => {
@@ -29,7 +29,7 @@ const Nav = () => {
       )}
       { userAuth && (
       <ul className={`nav-links ${openMenu ? 'open' : ''}`}>
-        <li className="nav-button"><Link to="/home" onClick={toggleMenu}>Inclusion <span className='letter-nav'>Edu</span>Tech</Link></li>
+        <li className="nav-button"><Link to="/home" onClick={toggleMenu}>Inclusión <span className='letter-nav'>Educa</span>Tech</Link></li>
         <li className="nav-button"><Link to="process" onClick={toggleMenu}>Crear Reto</Link></li>
         <li className="nav-button"><Link to="home" onClick={toggleMenu}>Ver Existente</Link></li>
         <li className="nav-button"><Link to="home" onClick={toggleMenu}>Estudiante</Link></li>
