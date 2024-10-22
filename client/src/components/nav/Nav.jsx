@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useUserContext } from '../../context/UserContext'; 
 import { useState } from 'react';
 import "./Nav.css";
-import logo from "../../assets/img/logotipo2.png";
+import logo from "../../assets/img/Azul Amarillo 3D Propuesta de proyecto Sitio web de educación (1).svg";
 import Logout from '../logOut/LogOut';
 
 const Nav = () => {
