@@ -12,11 +12,12 @@
 .logo-name {
   display: flex;
   align-items: center;
+  margin-top:8px;
   width: 50%;
 }
 
 .logo-img {
-  width: 15%;
+  width: 24%;
   margin-left: 3vw;
 }
 

@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom';
 import { useUserContext } from '../../context/UserContext'; 
 import { useState } from 'react';
 import "./Nav.css";
-import logo from "../../assets/img/Azul Amarillo 3D Propuesta de proyecto Sitio web de educación (1).svg";
+import logo from "../../assets/img/Educa TECH.png";
 import Logout from '../logOut/LogOut';
 
 const Nav = () => {
@@ -29,9 +29,11 @@ const Nav = () => {
       )}
       { userAuth && (
       <ul className={`nav-links ${openMenu ? 'open' : ''}`}>
-        <li className="nav-button"><Link to="/home" onClick={toggleMenu}>Lean <span className='letter-nav'>K</span>ata</Link></li>
+        <li className="nav-button"><Link to="/home" onClick={toggleMenu}>Inclusión <span className='letter-nav'>Educa</span>Tech</Link></li>
         <li className="nav-button"><Link to="process" onClick={toggleMenu}>Crear Reto</Link></li>
         <li className="nav-button"><Link to="home" onClick={toggleMenu}>Ver Existente</Link></li>
+        <li className="nav-button"><Link to="home" onClick={toggleMenu}>Estudiante</Link></li>
+        <li className="nav-button"><Link to="home" onClick={toggleMenu}>Padres</Link></li>
         <div className='button-profile'>
         <p className="nav-button-profile">{user && user.name}</p>&nbsp;
         <Logout/>
