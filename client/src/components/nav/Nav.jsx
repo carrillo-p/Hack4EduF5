@@ -29,9 +29,11 @@ const Nav = () => {
       )}
       { userAuth && (
       <ul className={`nav-links ${openMenu ? 'open' : ''}`}>
-        <li className="nav-button"><Link to="/home" onClick={toggleMenu}>Lean <span className='letter-nav'>K</span>ata</Link></li>
+        <li className="nav-button"><Link to="/home" onClick={toggleMenu}>Inclusion <span className='letter-nav'>Edu</span>Tech</Link></li>
         <li className="nav-button"><Link to="process" onClick={toggleMenu}>Crear Reto</Link></li>
         <li className="nav-button"><Link to="home" onClick={toggleMenu}>Ver Existente</Link></li>
+        <li className="nav-button"><Link to="home" onClick={toggleMenu}>Estudiante</Link></li>
+        <li className="nav-button"><Link to="home" onClick={toggleMenu}>Padres</Link></li>
         <div className='button-profile'>
         <p className="nav-button-profile">{user && user.name}</p>&nbsp;
         <Logout/>

@@ -8,7 +8,7 @@ const Landing = () => {
      <div className='landing-container'>
      <main className="landing">
       <section className="section-left">
-          <h1 className='landing-title'>¡Tu camino<br/>hacia la mejora <br/>continua con <br />Lean <span>K</span>ata!</h1>
+          <h1 className='landing-title'>¡Porque cada niño<br/>merece aprender <br/>a su manera <br />Inclusión <span>Edu</span>Tech!</h1>
             <div className='bton-landing-container'>
             <Link to="/RegisterForm">
               <button className='register-btn'>
