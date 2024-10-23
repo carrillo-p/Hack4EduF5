@@ -2,8 +2,9 @@
 
   ![Designer](https://github.com/user-attachments/assets/a0388320-3fcd-463e-a509-445700fa298c)
 
-Puede ver nuestro vídeo aquí:  https://youtu.be/98CL68Nsl5o
-https://1drv.ms/p/s!Anlt-57CsFHHjtgYGWKA_YccX9eZ8A?e=ivXv9b
+Puede ver nuestro vídeo aquí: https://youtu.be/98CL68Nsl5o
+
+Puede ver nuestra presentación aquí: https://1drv.ms/p/s!Anlt-57CsFHHjtgYGWKA_YccX9eZ8A?e=ivXv9b
 
 ## Justificación del proyecto:
 
